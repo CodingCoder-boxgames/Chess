@@ -20,6 +20,8 @@ class Main:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
+
+                    
             pygame.display.update()
 
 main = Main()
